@@ -1,0 +1,16 @@
+# Sanal Ortamlar (Virtual Environments)
+.venv/
+venv/
+env/
+
+# IDE (PyCharm/VSCode) Ayar Klasörleri
+.idea/
+.vscode/
+
+# Python Ön Bellek Dosyaları
+__pycache__/
+*.pyc
+
+# İşletim Sistemi Dosyaları (Mac/Windows için)
+.DS_Store
+Thumbs.db
