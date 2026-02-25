@@ -26,4 +26,8 @@ Bilgisayara karşı oynadığınız klasik Taş-Kağıt-Makas oyunu. Siz ve bilg
 Yaptığınız seçimlere göre hikayenin gidişatının ve sonunun değiştiği, klasik bir "Kendi Maceranı Seç" tarzı rol yapma oyunudur. Doğru yolu bulup hayatta kalmaya çalışırsınız!
 * **Ne Öğretir?** İç içe geçmiş (nested) koşullu ifadeler ve yazılımda "karar ağacı" (decision tree) mantığını kurgulama.
 
+### 5. ⏰ Dijital Alarm Saati (`alarm_clock.py`)
+Kullanıcıdan alınan süre boyunca terminal ekranında dinamik olarak (tek bir satır üzerinde) geri sayım yapan ve süre dolduğunda belirlediğiniz bir ses dosyasını (MP3) çalan pratik bir zamanlayıcı uygulamasıdır.
+* **Ne Öğretir?** `time` modülü ile zamanı yönetme (`time.sleep`), ANSI kaçış kodlarıyla terminal ekranını temizleyip animasyonlu gibi veri güncelleme, dış kütüphaneler (örn: `playsound` veya `pygame`) kullanarak medya oynatma ve `try-except` bloklarıyla hatalı kullanıcı girişlerini yakalama.
+
 ---
