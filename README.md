@@ -1,6 +1,6 @@
 # 🐍 Python Beginner Projects (Yeni Başlayanlar İçin Python Projeleri)
 
-Merhaba! 👋 Kodlama dünyasına yeni adım atıyorsanız, doğru yerdesiniz. Bu depo (repository), Python öğrenmeye yeni başlayanlar için temel programlama mantığını kavratmak amacıyla hazırlanmış eğlenceli, basit ve öğretici mini projeler içermektedir.
+Merhaba! 👋 Kodlama dünyasına yeni adım atıyorsanız, doğru yerdesiniz. Bu depo (repository), Python öğrenmeye yeni başlayanlar için temel programlama mantığını kavratmak amacıyla hazırlanmış eğlenceli, basit ve öğretici projeler içermektedir.
 
 Buradaki kodları inceleyerek **değişkenler, döngüler (`while`, `for`), koşullu ifadeler (`if`, `elif`, `else`) ve kullanıcı girdisi alma (`input`)** gibi temel konuların gerçek projelerde nasıl kullanıldığını pratik bir şekilde görebilirsiniz.
 
@@ -8,7 +8,7 @@ Buradaki kodları inceleyerek **değişkenler, döngüler (`while`, `for`), koş
 
 ## 📂 Depo İçeriği ve Projeler
 
-Bu repoda şu an temel Python mantığını kavratacak 4 farklı mini proje bulunmaktadır:
+Bu repoda şu an temel Python mantığını kavratacak farklı mini projeler bulunmaktadır:
 
 ### 1. 🧠 Bilgi Yarışması (`quiz_game.py`)
 Kullanıcıya bilgisayar donanımları hakkında çeşitli soruların sorulduğu ve doğru cevapların puanlandığı basit bir bilgi yarışması uygulamasıdır.
@@ -29,5 +29,9 @@ Yaptığınız seçimlere göre hikayenin gidişatının ve sonunun değiştiği
 ### 5. ⏰ Dijital Alarm Saati (`alarm_clock.py`)
 Kullanıcıdan alınan süre boyunca terminal ekranında dinamik olarak (tek bir satır üzerinde) geri sayım yapan ve süre dolduğunda belirlediğiniz bir ses dosyasını (MP3) çalan pratik bir zamanlayıcı uygulamasıdır.
 * **Ne Öğretir?** `time` modülü ile zamanı yönetme (`time.sleep`), ANSI kaçış kodlarıyla terminal ekranını temizleyip animasyonlu gibi veri güncelleme, dış kütüphaneler (örn: `playsound` veya `pygame`) kullanarak medya oynatma ve `try-except` bloklarıyla hatalı kullanıcı girişlerini yakalama.
+
+### 6. 🔐 Rastgele Şifre Oluşturucu (`password_generator.py`)
+Belirlediğiniz uzunlukta ve kriterlerde (sayı ve özel karakter içerme durumu) kırılması zor, tamamen rastgele şifreler üreten bir güvenlik aracıdır. İstenen tüm güvenlik şartları sağlanana kadar kendi içinde denemeler yapmaya devam eder.
+* **Ne Öğretir?** `string` ve `random` modüllerinin kullanımı, `while True` döngüsü ile koşullar sağlanana kadar işlem yapma (yazılımdaki "flag/bayrak" mantığı), boolean mantığı (`True`/`False`) ve fonksiyonlara varsayılan (default) parametreler atama.
 
 ---
